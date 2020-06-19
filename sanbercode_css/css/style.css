@@ -1,0 +1,80 @@
+/* mengatur background utama */
+body{
+    background-image: url(../public/img/pattern.jpg);
+
+}
+
+/* mengatur header keseluruhan */
+header{
+    background-color: white;
+    position:sticky;
+    width: 100%;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    right: 0;
+    box-shadow: aqua 0, 0, 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header nav{
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+/* mengatur posisi link header*/
+header ul a{
+    list-style: none;
+    text-align: right;
+    color: blue;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+/* mengatur costumize format link header*/
+header a{
+    float: left;
+    text-decoration: none;
+}
+
+
+
+/* mengatur artikel keseluruhan termasuk background putih text */
+section{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+    padding: 2%;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* mengatur judul utama artikel */
+section h1{
+    text-align: center;
+}
+
+section a{
+    text-decoration: none;
+    color: black;
+}
+
+/* mengatur artikel turunan dan memberi garis bawah hitam */
+section #article-list article{
+    border-bottom: solid black 2px;
+    background-color: inherit;
+
+}
+
+/* mengatur posisi, warna dan huruf footer */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
