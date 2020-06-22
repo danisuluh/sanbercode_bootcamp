@@ -24,6 +24,13 @@
         $first_sentence = "Hello PHP!" ; // Panjang string 10, jumlah kata: 2
         $second_sentence = "I'm ready for the challenges"; // Panjang string: 28,  jumlah kata: 5
         
+        echo "<br>";
+
+        echo "Kalimat "."<strong>".$first_sentence."</strong>"." memiliki panjang string ".strlen ($first_sentence)." , jumlah kata: ". str_word_count($first_sentence);
+        
+        echo "<br>";
+        echo "Kalimat "."<strong>".$second_sentence."</strong>". " memiliki panjang string ".strlen ($second_sentence)." , jumlah kata: ". str_word_count($second_sentence);
+        
         echo "<h3> Soal No 2</h3>";
         /* 
             SOAL NO 2
@@ -44,9 +51,14 @@
             SOAL NO 3
             Mengubah karakter atau kata yang ada di dalam sebuah string.
         */
+        
         $string3 = "PHP is old but sexy!";
         echo "String: \"$string3\" "; 
+        
+        echo "<br>";
         // OUTPUT : "PHP is old but awesome"
+        echo "Dirubah Menjadi: ".str_replace("sexy","awesome",$string3);
+        
 
     ?>
 </body>
