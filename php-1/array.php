@@ -128,6 +128,7 @@
             echo ucfirst($bios) . ": $biosx <br>";
         }
     }
+
     ?>
 </body>
 
